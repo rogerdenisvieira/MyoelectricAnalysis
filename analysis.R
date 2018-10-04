@@ -29,6 +29,8 @@ wilcox.test(df_selecionados$V11, df_selecionados$V23)
 # Dedos ao Solo - lado esquerdo entre controle e coleta inicial
 wilcox.test(df_selecionados$V12, df_selecionados$V24)
 
-
-a <- c(14.85,14.9,14.3,14,13.54,12.55,10.9,11.16,10,98)
-b <- c(10.8,10,10.3,10.8,9.95,9.57,8.64,9.43,8.8)
+# Relação Repetição/CVM de cada músculo entre coleta inicial e coleta final
+wilcox.test() # Iliocostal direito
+wilcox.test() # Longuíssimo direito
+wilcox.test() # Iliocostal esquerdo
+wilcox.test() # Longuíssimo esquerdo
