@@ -1,4 +1,4 @@
-df_selecionados <- read.csv(file = "C:/Users/roger.vieira/Repositories/MyoelectricAnalysis/dados.csv", sep = ";", header = TRUE, dec = ".")
+df_selecionados <- read.csv(file = "C:/Users/roger.vieira/Repositories/MyoelectricAnalysis/dataset.tsv", sep = "\t", header = TRUE, dec = ",")
 
 library("effsize")
 
@@ -124,6 +124,13 @@ cohen.d(df_selecionados$V23, df_selecionados$V35)
 
 # Dedos ao Solo - lado esquerdo entre coleta inicial e final
 cohen.d(df_selecionados$V24, df_selecionados$V36)
+
+
+
+
+
+
+head(df_selecionados$V1)
 
 
 
